@@ -1,0 +1,94 @@
+{
+  "logo": {
+    "type": "file",
+    "source": "~/.config/fastfetch/mylogo.txt",
+    "color": {
+      "1": "#AA46F1",
+      "2": "#FFFFFF",
+      "3": "#FAEDAE"
+    },
+    "padding": {
+      "left": 2,
+      "right": 4
+    }
+  },
+  "display": {
+    "separator": "  ==> ",
+    "color": {
+      "keys": "",
+      "title": "#AA46F1",
+      "output": "#FDF6D4",
+      "separator": "#FAEDAE"
+    }
+  },
+  "modules": [
+    {
+      "type": "title"
+    },
+    {
+      "type": "separator",
+      "string": "<==========>",
+      "outputColor": "#FAEDAE",
+      "times": 0
+    },
+    {
+      "type": "os",
+      "key": ""
+    },
+    {
+      "type": "host",
+      "key": "󰌢"
+    },
+    {
+      "type": "kernel",
+      "key": ""
+    },
+    {
+      "type": "shell",
+      "key": ""
+    },
+    {
+      "type": "wm",
+      "key": "",
+      "detectPlugin": false
+    },
+    {
+      "type": "cursor",
+      "key": "󰆿"
+    },
+    {
+      "type": "terminal",
+      "key": ""
+    },
+    {
+      "type": "cpu",
+      "key": "",
+      "temp": false,
+      "showPeCoreCount": false
+    },
+    {
+      "type": "gpu",
+      "key": "󰾲",
+      "driverSpecific": false,
+      "detectionMethod": "pci",
+      "temp": false,
+      "hideType": "none"
+    },
+    {
+      "type": "localip",
+      "key": "󰩟",
+      "showIpv4": true,
+      "showIpv6": false,
+      "showMac": false,
+      "showLoop": false,
+      "showPrefixLen": true,
+      "showMtu": false,
+      "showSpeed": false,
+      "showFlags": false,
+      "compact": false,
+      "defaultRouteOnly": true,
+      "showAllIps": false,
+      "namePrefix": ""
+    },
+  ]
+}

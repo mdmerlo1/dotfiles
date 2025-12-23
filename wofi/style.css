@@ -1,0 +1,65 @@
+#window {
+	font-family: "A-OTF Shin Go Pro B";
+	font-feature-settings: "cv10, cv14, cv24, cv25, cv26, cv30, cv32, ss03, ss05, ss07, ss10";
+	font-weight: 900;
+	font-size: 14px;
+}
+
+#input {
+	margin: 5px;
+	border: 1px solid #AA46F1;
+	border-radius: 0px;
+	background-color: #161E4D;
+	color: #FDF6D4;
+}
+
+#inner-box {
+	margin: 0px;
+	border: 0px solid #FAEDAE;
+	border-radius: 50x;
+	background-color: #161E4D;
+}
+
+#outer-box {
+	margin: 0px;
+	border: 1px solid #8CFFFB;
+	border-radius: 0px;
+	background-color: #16183D;
+}
+
+#scroll {
+	margin: 5px;
+	border: 1px solid #AA46F1;
+	border-radius: 0px;
+	background-color: #161E4D;
+}
+
+#entry {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #FDF6D4;
+}
+
+#entry arrow {
+	color: #AA46F1;
+	border: none;
+}
+
+#entry:selected {
+	background-color: #8CFFFB;
+	color: #AA46F1;
+	border-radius: 0px;
+	outline: none;
+	border: none;
+}
+
+#entry:selected #text {
+	color: #16183D;
+	border-radius: 0px;
+}
+
+#entry:drop(active) {
+	color: #FAEDAE;
+	background-color: #AA46F1;
+}
